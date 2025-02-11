@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="upper_container">
+        <img src="images/tic-tac-toe-svgrepo-com.svg" alt="logo">
+        <div class="status">X turn</div>
+        <button class="reset-btn">Reset Game</button>
+
+    </div>
+    <div class="game-container">
+        <div class="game-grid">
+            <button class="cell" data-index="0"></button>
+            <button class="cell" data-index="1"></button>
+            <button class="cell" data-index="2"></button>
+            <button class="cell" data-index="3"></button>
+            <button class="cell" data-index="4"></button>
+            <button class="cell" data-index="5"></button>
+            <button class="cell" data-index="6"></button>
+            <button class="cell" data-index="7"></button>
+            <button class="cell" data-index="8"></button>
+        </div>    
+    </div>
+    <div class="score-board">
+        <div class="score-item" style="background-color: #2196F3;">
+            Player1<br><span class="score">0</span>
+        </div>
+        <div class="score-item" style="background-color: #9E9E9E;">
+            Draws<br><span class="score">0</span>
+        </div>
+        <div class="score-item" style="background-color: #FF5722;">
+            Player2<br><span class="score">0</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
